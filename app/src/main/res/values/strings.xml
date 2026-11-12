@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">FURAT | فُرات</string>
+    <string name="tagline" translatable="false">ANBAR\'S SMART MAP</string>
+    <string name="lang_code" translatable="false">ar</string>
+
+    <string name="nav_map">الخريطة</string>
+    <string name="nav_search">بحث</string>
+    <string name="nav_favorites">المفضلة</string>
+
+    <string name="search_hint">ابحث عن مدينة أو مكان</string>
+    <string name="clear">مسح</string>
+    <string name="no_results">لا توجد نتائج مطابقة.</string>
+    <string name="no_favorites">لم تضف أي مكان إلى المفضلة بعد.</string>
+
+    <string name="my_location">موقعي</string>
+    <string name="location_permission_denied">لم يتم منح إذن الموقع، لذا لا يمكن عرض موقعك.</string>
+    <string name="location_disabled">خدمة الموقع مغلقة. فعّلها من إعدادات الجهاز ثم حاول مجددًا.</string>
+    <string name="location_unavailable">تعذّر تحديد موقعك حاليًا.</string>
+    <string name="map_not_ready">الخريطة قيد التحميل، حاول بعد لحظات.</string>
+    <string name="offline_banner">لا يوجد اتصال بالإنترنت. قد لا تظهر أجزاء من الخريطة.</string>
+
+    <string name="add_favorite">إضافة إلى المفضلة</string>
+    <string name="remove_favorite">إزالة من المفضلة</string>
+    <string name="back">رجوع</string>
+    <string name="details">التفاصيل</string>
+    <string name="show_on_map">عرض على الخريطة</string>
+    <string name="open_in_maps">فتح في تطبيق خرائط</string>
+    <string name="no_maps_app">لا يوجد تطبيق خرائط على الجهاز.</string>
+    <string name="place_not_found">المكان غير موجود.</string>
+
+    <string name="category_city">مدينة</string>
+    <string name="category_landmark">معلم</string>
+    <string name="coordinates">الإحداثيات (تقريبية)</string>
+</resources>
