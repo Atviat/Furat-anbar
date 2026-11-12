@@ -14,6 +14,19 @@ android {
         targetSdk = 35
         versionCode = 1
         versionName = "0.1.0"
+
+        // Phones only: drops x86/x86_64 native libs (smaller APK, fewer installer issues).
+        ndk {
+            abiFilters += listOf("arm64-v8a", "armeabi-v7a")
+        }
+    }
+
+    signingConfigs {
+        getByName("debug") {
+            // Also sign with the legacy v1 scheme for maximum installer compatibility.
+            enableV1Signing = true
+            enableV2Signing = true
+        }
     }
 
     buildTypes {
