@@ -27,8 +27,12 @@
         <button id="lang" class="pill-btn" data-i18n="lang_btn" data-i18n-aria="lang_aria"></button>
       </div>
       <div id="chips" class="chips"></div>
+      <div id="poibar" class="infobar" hidden></div>
+      <div id="loadbar" class="infobar" hidden></div>
       <div id="offline" class="offline" hidden><span data-icon="wifioff"></span><span data-i18n="offline"></span></div>
     </header>
+
+    <div id="navtop" hidden></div>
 
     <button id="locate" class="fab" data-icon="locate" data-i18n-aria="my_location"></button>
     <div id="toast" role="status" aria-live="polite"></div>
@@ -47,12 +51,16 @@
       <div class="brandmark"><b>FURAT | فُرات</b><small>ANBAR'S SMART MAP</small></div>
       <h1 data-i18n="nav_search"></h1>
     </div>
-    <div class="searchbox">
+    <form id="search-form" class="searchbox" action="#">
       <span class="si" data-icon="search"></span>
       <input id="q" type="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" spellcheck="false" data-i18n-ph="search_hint">
-      <button id="q-clear" class="icon-btn" data-icon="close" data-i18n-aria="clear" hidden></button>
-    </div>
+      <button id="q-clear" type="button" class="icon-btn" data-icon="close" data-i18n-aria="clear" hidden></button>
+    </form>
+    <div class="section-title" data-i18n="explore"></div>
+    <div id="poi-cats" class="cats"></div>
     <div id="search-list"></div>
+    <div id="search-online"></div>
+    <div id="search-count" class="muted small center"></div>
   </section>
 
   <section id="panel-favs" class="panel" hidden>

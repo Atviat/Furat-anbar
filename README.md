@@ -17,3 +17,9 @@ Native Android app (Kotlin, Jetpack Compose, Material 3, MapLibre) with an inter
 ## Build
 - **GitHub Actions:** Actions → "Android Debug APK" → Run workflow. Download the `FURAT-debug-apk` artifact.
 - **Locally:** open in Android Studio, or run `./gradlew assembleDebug` (JDK 17 + Android SDK 35). APK: `app/build/outputs/apk/debug/`.
+
+## Web app (iPhone / any browser) — `web/`
+Deployed with GitHub Pages: https://atviat.github.io/Furat-anbar/
+- All settlements of Anbar (cities, towns, villages, neighbourhoods) loaded from OpenStreetMap via Overpass, plus online place search (Nominatim) and service categories (hospitals, fuel, etc.)
+- Tap any point on the map to drop a pin; route from your location by car or on foot (OSRM), with live turn-by-turn navigation, voice guidance and automatic re-routing
+- Uses only free public services (no API keys). Routes depend on OpenStreetMap road data.
